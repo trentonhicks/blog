@@ -50,7 +50,7 @@ After failing again and again, I realized I couldn't do things on my own. I need
 God gives grace to the humble. If you want to change, humility is required.
 :::
 
-I talked with my parents about the struggles I was having in my faith. I also receieved counsel from my pastors and other mentors in my life who encouraged me and helped hold me accountable to renew my mind and fight the spiritual battle I was going through.
+I talked with my parents about the struggles I was having in my faith. I also received counsel from my pastors and other mentors in my life who encouraged me and helped hold me accountable to renew my mind and fight the spiritual battle I was going through.
 
 Things haven't changed over night, but my faith has grown and God has been with me every step of the way.
 
@@ -88,9 +88,9 @@ Your love for God should run parallel to your love for His Word. You don't love 
 When he had consulted with the people, he appointed those who sang to the Lord and those who praised Him in holy attire, as they went out before the army and said, “Give thanks to the Lord, for His faithfulness is everlasting.” When they began singing and praising, the Lord set ambushes against the sons of Ammon, Moab, and Mount Seir, who had come against Judah; so they were struck down.
 :::
 
-When you are going through difficult times and are exhausted from fighting, it can be tempting to want to give up and let bitterness creep into your life. Sometimes you will feel like complaining about your circustances and speaking rashly. Turn your eyes upon Jesus. Give thanks to the Lord for His mrecy and lovingkindness. Give thanks for the redemption that has been purchased on your behalf. Trust God and give Him praise. He will fight your battles as you step out in faith.
+When you are going through difficult times and are exhausted from fighting, it can be tempting to want to give up and let bitterness creep into your life. Sometimes you will feel like complaining about your circustances and speaking rashly. Turn your eyes upon Jesus. Give thanks to the Lord for His mercy and lovingkindness. Give thanks for the redemption that has been purchased on your behalf. Trust God and give Him praise. He will fight your battles as you step out in faith.
 
-### Memorize scripture
+### Memorize Scripture
 
 ::: info Matthew 4:3-4
 And the tempter came and said to Him, "If You are the Son of God, command that these stones become bread." But He answered and said, "It is written, 'Man shall not live on bread alone, but on every word that proceeds out of the mouth of God.'"
@@ -120,7 +120,7 @@ When struggling with thoughts like, "Am I really saved?" How is it that you can 
 But he said to me, “My grace is sufficient for you, for my power is made perfect in weakness.” Therefore I will boast all the more gladly of my weaknesses, so that the power of Christ may rest upon me.
 :::
 
-The most rewarding experiences of my life have been beyond my natural ability and preferred comfort level. Get involved in things where you know you'll need God's help. This will increase your faith, grace, and fulfillment. One example from my life is volunteering to teach in the children's ministry at church. I haven't had a lot of experience with children and by no means am I an extrovert. In fact, I think my social skills need quite a lot of work. However, every time I serve with the kids I sense the precense of God strongly in the room. God loves children and so do I. It doesn't matter if you don't have what it takes. God will use you if you are humble and willing.
+The most rewarding experiences of my life have been beyond my natural ability and preferred comfort level. Get involved in things where you know you'll need God's help. This will increase your faith, grace, and fulfillment. One example from my life is volunteering to teach in the children's ministry at church. I haven't had a lot of experience with children and by no means am I an extrovert. In fact, I think my social skills need quite a lot of work. However, every time I serve with the kids I sense the presence of God strongly in the room. God loves children and so do I. It doesn't matter if you don't have what it takes. God will use you if you are humble and willing.
 
 ## Conclusion
 
