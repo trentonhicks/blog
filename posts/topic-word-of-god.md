@@ -59,3 +59,15 @@
 <MemorizationBlock title="Ephesians 3:14-20">
     For this reason I bow my knees before the Father, from whom every family in heaven and on earth derives its name, that He would grant you, according to the riches of His glory, to be strengthened with power through His Spirit in the inner man, so that Christ may dwell in your hearts through faith; and that you, being rooted and grounded in love, may be able to comprehend with all the saints what is the breadth and length and height and depth, and to know the love of Christ which surpasses knowledge, that you may be filled up to all the fullness of God. Now to Him who is able to do far more abundantly beyond all that we ask or think, according to the power that works within us,
 </MemorizationBlock>
+
+<MemorizationBlock title="Ecclesiastes 8:4">
+    Since the word of the king is authoritative, who will say to him, “What are you doing?”
+</MemorizationBlock>
+
+<MemorizationBlock title="1 Thessalonians 2:13">
+    For this reason we also constantly thank God that when you received the word of God which you heard from us, you accepted it not as the word of men, but for what it really is, the word of God, which also performs its work in you who believe.
+</MemorizationBlock>
+
+<MemorizationBlock title="James 1:21">
+    Therefore, putting aside all filthiness and all that remains of wickedness, in humility receive the word implanted, which is able to save your souls.
+</MemorizationBlock>
