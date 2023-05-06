@@ -12,7 +12,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Testimony', link: '/posts/testimony' },
-      { text: 'Scriptures: The Word of God', link: '/posts/scriptures-the-word-of-god' },
+      { text: 'Topic: The Word of God', link: '/posts/topic-word-of-god' },
     ],
 
     sidebar: [
@@ -20,7 +20,7 @@ export default defineConfig({
         text: 'Posts',
         items: [
           { text: 'Testimony', link: '/posts/testimony' },
-          { text: 'Scriptures: The Word of God', link: '/posts/scriptures-the-word-of-god' },
+          { text: 'Topic: The Word of God', link: '/posts/topic-word-of-god' },
         ]
       }
     ],
