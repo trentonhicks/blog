@@ -59,5 +59,5 @@ Abide in Me, and I in you. As the branch cannot bear fruit of itself unless it a
 
 I began to recognize that all of my efforts were vain apart from God. It is true that I wasn't good enough. I needed forgiveness and grace to experience the life that God wanted me to have and to fulfill the purpose He had for my life.
 
-Next week we will continue to explore what the Scriptures say regarding our purpose for this life and throughout eternity.
+In part 2 of this series we will continue to explore what the Scriptures say regarding our purpose for this life and throughout eternity.
 
