@@ -59,3 +59,10 @@ I began to recognize that all of my efforts were vain apart from God. It is true
 
 In part 2 of this series we will continue to explore what the Scriptures say regarding our purpose for this life and throughout eternity.
 
+::QuestionsToConsider
+---
+questions:
+    - Are you trying to save yourself or are you abiding in Christ?
+    - Do you think you are a good person? How do you define good? What does God's Word say?
+---
+::
