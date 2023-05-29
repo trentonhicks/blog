@@ -23,11 +23,9 @@ reference: Ecclesiastes 2:11
 Thus I considered all my activities which my hands had done and the labor which I had exerted, and behold all was vanity and striving after wind and there was no profit under the sun.
 ::
 
-Growing up I struggled with a poor self-image.
+Growing up, I struggled with a poor self-image.
 
-I believed I had to achieve perfection to be loved by God and people.
-
-My perspective was that I didn't have value to others, and I had to focus on fixing my own problems.
+I used to believe that I had no value to others, and I had to focus on fixing my own problems.
 
 Since I considered myself to be unlovable in my imperfect state, I began to seek approval from God and the people in my life by working hard to achieve "success."
 
