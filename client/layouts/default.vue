@@ -75,8 +75,8 @@
     </div>
 
     <main class="py-10 lg:pl-72">
-      <div class="px-4 sm:px-6 lg:px-8">
-        <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700 grid gap-y-5">
+      <div class="px-5 lg:px-20">
+        <div class="max-w-3xl text-base leading-7 text-gray-700 grid gap-y-5">
           <slot />
         </div>
       </div>

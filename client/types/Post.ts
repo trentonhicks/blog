@@ -5,6 +5,7 @@ type Post = {
     description: string,
     date: string,
     datetime: string,
+    imageUrl: string,
     author: {
       name: string,
       role: string,

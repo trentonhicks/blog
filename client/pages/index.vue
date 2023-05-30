@@ -1,10 +1,6 @@
 <script setup lang="ts">
 import Post from '~/types/Post';
 
-definePageMeta({
-  layout: "home",
-});
-
 const { data } = await useAsyncData('posts', () =>
     queryContent('/posts')
     .only([
@@ -14,7 +10,8 @@ const { data } = await useAsyncData('posts', () =>
         'description',
         'date',
         'datetime',
-        'author'
+        'author',
+        'imageUrl'
     ])
     .find());
 
