@@ -86,11 +86,11 @@
 
 <style>
   main h2 {
-    @apply mt-14 mb-5 text-2xl font-bold tracking-tight text-gray-900;
+    @apply mt-10 mb-5 text-2xl font-bold tracking-tight text-gray-900;
   }
 
   main h3 {
-    @apply mt-10 mb-3 text-xl font-bold tracking-tight text-gray-900;
+    @apply mt-10 mb-5 text-xl font-bold tracking-tight text-gray-900;
   }
 
   main p {

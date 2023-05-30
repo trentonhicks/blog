@@ -13,6 +13,7 @@ author:
 ::PostHeader
 ---
 title: Testimony
+featuredImage: 'https://lh3.googleusercontent.com/drive-viewer/AFGJ81rpWjPEPZHA6Ga88DeVo-TsQacDL0ZzrrVr8QwuRfzVjYIul5FdxJy2TWh97ktg_4k9YE_dDtr9WcWQEh3K5Wrgo_wO0A=s1600'
 ---
 ::
 

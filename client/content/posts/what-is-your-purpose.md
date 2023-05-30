@@ -14,6 +14,7 @@ author:
 ---
 overline: Part 1
 title: What Is Your Purpose?
+featuredImage: 'https://lh3.googleusercontent.com/drive-viewer/AFGJ81oRDVkmRCuq3Z0g-IsctFCuVefTUzZTfxG0WwfqsxUDpLcLXz7UFdu5qOO2G4qfuUJT3OVkoF180V6JeZPJXoP8MbJ4aw=s1600'
 ---
 ::
 

@@ -13,6 +13,7 @@ author:
 ::PostHeader
 ---
 title: 'Scriptures By Topic: The Word of God'
+featuredImage: 'https://lh3.googleusercontent.com/drive-viewer/AFGJ81qIEV_hr4UpyV8IFhdzRFvrB3cLIpfgA0BDo_On0ux8_eyY1x0nOO2zr4OjBT8fqGtacernGBBCsknBWOtvkLKkSMoG-g=s1600'
 ---
 ::
 
