@@ -107,12 +107,12 @@ import { ref } from 'vue'
 import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
 import {
   Bars3Icon,
-  HomeIcon,
   XMarkIcon,
+  DocumentDuplicateIcon
 } from '@heroicons/vue/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '/', icon: HomeIcon, current: false },
+  { name: 'Posts', href: '/', icon: DocumentDuplicateIcon, current: true },
 ]
 
 const sidebarOpen = ref(false);

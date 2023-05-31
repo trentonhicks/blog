@@ -3,17 +3,17 @@ title: Testimony
 description: From a very young age I doubted that I was saved. When I was 11 years old, there was a moment when I feared leaving the house because I did not want to risk dying and going to Hell.
 date: April 25, 2023
 datetime: 2023-04-25
-imageUrl: https://lh3.googleusercontent.com/drive-viewer/AFGJ81rpWjPEPZHA6Ga88DeVo-TsQacDL0ZzrrVr8QwuRfzVjYIul5FdxJy2TWh97ktg_4k9YE_dDtr9WcWQEh3K5Wrgo_wO0A=s1600
+imageUrl: https://ik.imagekit.io/trentonhicks/testimony.jpg
 author:
     name: Trenton Hicks
     role: Author
-    imageUrl: https://lh3.googleusercontent.com/drive-viewer/AFGJ81p0iVaF9rQtywzmajM1BUPuHt19ggovL3eymS1A5gE_7TE_bGKt8ZPDaw-jNihShDBEJWy4KL9iK75a5mr9-DPZGYILGw=s1600
+    imageUrl: https://ik.imagekit.io/trentonhicks/trenton.jpeg
 ---
 
 ::PostHeader
 ---
 title: Testimony
-featuredImage: 'https://lh3.googleusercontent.com/drive-viewer/AFGJ81rpWjPEPZHA6Ga88DeVo-TsQacDL0ZzrrVr8QwuRfzVjYIul5FdxJy2TWh97ktg_4k9YE_dDtr9WcWQEh3K5Wrgo_wO0A=s1600'
+featuredImage: 'https://ik.imagekit.io/trentonhicks/testimony.jpg'
 ---
 ::
 

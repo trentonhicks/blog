@@ -7,13 +7,13 @@ defineProps<{ posts: Post[] }>();
 <template>
   <div class="space-y-20 lg:space-y-20">
     <article v-for="post in posts" :key="post.id" class="relative isolate flex flex-col gap-8 lg:flex-row">
-      <nuxt-link :href="post._path">
+      <nuxt-link :href="post._path" class="post-image">
         <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
           <img :src="post.imageUrl" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover" />
           <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
         </div>
       </nuxt-link>
-      <div>
+      <div class="post-content">
         <div class="flex items-center gap-x-4 text-xs">
           <time :datetime="post.datetime" class="text-gray-500">{{ post.date }}</time>
         </div>

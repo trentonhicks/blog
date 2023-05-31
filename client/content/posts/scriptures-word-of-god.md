@@ -3,17 +3,17 @@ title: 'Scriptures By Topic: The Word of God'
 description: For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart.
 date: April 26, 2023
 datetime: 2023-04-26
-imageUrl: https://lh3.googleusercontent.com/drive-viewer/AFGJ81qIEV_hr4UpyV8IFhdzRFvrB3cLIpfgA0BDo_On0ux8_eyY1x0nOO2zr4OjBT8fqGtacernGBBCsknBWOtvkLKkSMoG-g=s1600
+imageUrl: https://ik.imagekit.io/trentonhicks/topic-word-of-god.jpg
 author:
     name: Trenton Hicks
     role: Author
-    imageUrl: https://lh3.googleusercontent.com/drive-viewer/AFGJ81p0iVaF9rQtywzmajM1BUPuHt19ggovL3eymS1A5gE_7TE_bGKt8ZPDaw-jNihShDBEJWy4KL9iK75a5mr9-DPZGYILGw=s1600
+    imageUrl: https://ik.imagekit.io/trentonhicks/trenton.jpeg
 ---
 
 ::PostHeader
 ---
 title: 'Scriptures By Topic: The Word of God'
-featuredImage: 'https://lh3.googleusercontent.com/drive-viewer/AFGJ81qIEV_hr4UpyV8IFhdzRFvrB3cLIpfgA0BDo_On0ux8_eyY1x0nOO2zr4OjBT8fqGtacernGBBCsknBWOtvkLKkSMoG-g=s1600'
+featuredImage: 'https://ik.imagekit.io/trentonhicks/topic-word-of-god.jpg'
 ---
 ::
 
