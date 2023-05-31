@@ -68,3 +68,25 @@ questions:
     - Do you think you are a good person? How do you define good? What does God's Word say?
 ---
 ::
+
+::SeriesNavigation
+---
+steps:
+    -
+        name: Part 1
+        path: /posts/what-is-your-purpose/part-1
+        status: current
+    -
+        name: Part 2
+        path: #
+        status: upcoming
+    -
+        name: Part 3
+        path: #
+        status: upcoming
+    -
+        name: Part 4
+        path: #
+        status: upcoming
+---
+::
