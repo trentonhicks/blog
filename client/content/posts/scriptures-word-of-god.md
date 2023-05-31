@@ -1,5 +1,5 @@
 ---
-title: 'Scriptures By Topic: The Word of God'
+title: 'The Word of God'
 description: For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart.
 date: April 26, 2023
 datetime: 2023-04-26
@@ -12,7 +12,7 @@ author:
 
 ::PostHeader
 ---
-title: 'Scriptures By Topic: The Word of God'
+title: 'The Word of God'
 featuredImage: 'https://ik.imagekit.io/trentonhicks/topic-word-of-god.jpg'
 ---
 ::
