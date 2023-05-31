@@ -1,9 +1,11 @@
 ---
-title: What Is Your Purpose? - Part 1
+title: Part 1
 description: Growing up I struggled with a poor self-image. I believed I had to achieve perfection to be loved by God and people. My perspective was that I didn't have value to others, and I had to focus on fixing my own problems.
 date: May 27, 2023
 datetime: 2023-05-27
 imageUrl: https://ik.imagekit.io/trentonhicks/what-is-your-purpose.jpg
+head:
+    title: What Is Your Purpose? - Part 1
 author:
     name: Trenton Hicks
     role: Author
@@ -66,27 +68,5 @@ In part 2 of this series we will continue to explore what the Scriptures say reg
 questions:
     - Are you trying to save yourself or are you abiding in Christ?
     - Do you think you are a good person? How do you define good? What does God's Word say?
----
-::
-
-::SeriesNavigation
----
-steps:
-    -
-        name: Part 1
-        path: /posts/what-is-your-purpose/part-1
-        status: current
-    -
-        name: Part 2
-        path: #
-        status: upcoming
-    -
-        name: Part 3
-        path: #
-        status: upcoming
-    -
-        name: Part 4
-        path: #
-        status: upcoming
 ---
 ::

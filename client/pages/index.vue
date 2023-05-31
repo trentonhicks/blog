@@ -3,7 +3,9 @@ import { gsap } from 'gsap';
 import Post from '~/types/Post';
 
 const { data: posts } = await useAsyncData(async () =>
-    await queryContent<Post>('/posts').sort({ datetime: -1 }).find());
+    await queryContent<Post>('/posts')
+            .where({ _partial: false, })
+            .sort({ datetime: -1 }).find());
 
 const postsHidden = ref(true);
 const rootElement = ref<Element | null>(null);
