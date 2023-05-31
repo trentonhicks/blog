@@ -1,14 +1,31 @@
 <script setup lang="ts">
 import { gsap } from 'gsap';
 
+const hidden = ref(true);
 const rootElement = ref<Element | null>(null);
 
-function animatePostIn(element: Element) {
+onMounted(() => {
+  hidden.value = false;
+});
+
+onBeforeRouteLeave((to, from, next) => {
+    gsap
+    .to(rootElement.value!,
+        {
+            opacity: 0,
+            duration: 0.5,
+            ease: 'power3.out',
+            onComplete: () => next(),
+        }
+    );
+});
+
+function animatePostIn(element: Element, done: any) {
   const postHeader = element.querySelector('.post-header')!;
   const postHeaderText = postHeader.querySelector('.post-header-text');
 
   gsap
-    .timeline()
+    .timeline({ onComplete: done })
     .addLabel('animationStart')
     .fromTo(element,
     {
@@ -37,25 +54,12 @@ function animatePostIn(element: Element) {
     }, 'animationStart+=0.5');
 }
 
-onMounted(() => {
-  animatePostIn(rootElement.value!);
-});
-
-onBeforeRouteLeave((to, from, next) => {
-    gsap
-    .to(rootElement.value!,
-        {
-            opacity: 0,
-            duration: 0.5,
-            ease: 'power3.out',
-            onComplete: () => next(),
-        }
-    );
-});
 </script>
 
 <template>
-    <main ref="rootElement">
-      <ContentDoc />
-    </main>
+    <Transition appear @enter="animatePostIn">
+      <main ref="rootElement" v-show="!hidden">
+        <ContentDoc />
+      </main>
+    </Transition>
 </template>
