@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { gsap } from 'gsap';
+import ChildPost from '~/types/ChildPost';
 import Post from '~/types/Post';
 
 const route = useRoute();
@@ -42,7 +43,9 @@ function animatePostIn(element: Element, done: any) {
       <main ref="rootElement" v-show="!hidden">
         <ContentDoc />
         <div v-if="partialPosts">
-          <ChildPosts :posts="partialPosts" />
+          <ChildPosts :posts="partialPosts.map((post, index) => ({
+            ...post, status: index === 0 ? 'current' : 'upcoming'
+          }))" />
         </div>
       </main>
     </Transition>

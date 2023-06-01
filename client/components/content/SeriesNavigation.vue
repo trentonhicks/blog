@@ -1,6 +1,8 @@
 <template>
     <nav class="flex items-center justify-center mt-10" aria-label="Progress">
-      <p class="text-sm font-medium my-0">Part {{ steps.findIndex((step) => step.status === 'current') + 1 }}</p>
+      <p class="text-sm font-medium my-0">
+        <span>{{ steps[steps.findIndex((step) => step.status === 'current')].name }}</span>
+      </p>
       <ol role="list" class="ml-8 flex items-center space-x-5">
         <li v-for="step in steps" :key="step.name">
           <nuxt-link v-if="step.status === 'complete'" :to="step.path" class="block h-2.5 w-2.5 rounded-full bg-indigo-600 hover:bg-indigo-900">
