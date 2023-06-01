@@ -46,16 +46,16 @@ function animatePostIn(element: Element, done: any) {
     <Transition appear @enter="animatePostIn">
       <main ref="rootElement" v-show="!hidden">
         <ContentDoc :path="partialPostContentUrl" />
-        <div v-if="partialPosts !== null">
-          <ClientOnly>
-            <SeriesNavigation
-              :current-path="route.path"
-              :steps="partialPosts.map((post, index) => ({
-                name: post.title,
-                path: post._path.replace('_', '')
-              }))"
-            />
-          </ClientOnly>
+        <div v-if="partialPosts">
+            <ClientOnly>
+              <SeriesNavigation
+                :current-path="route.path"
+                :steps="partialPosts.map((post, index) => ({
+                  name: post.title,
+                  path: post._path.replace('_', '')
+                }))"
+              />
+            </ClientOnly>
         </div>
       </main>
     </Transition>

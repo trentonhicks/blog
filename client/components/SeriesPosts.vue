@@ -54,12 +54,17 @@ import { CheckIcon } from '@heroicons/vue/20/solid'
 import Post from '~/types/Post';
 
 const { posts } = defineProps<{ posts: Post[] }>();
+const statuses: string[] = reactive([]);
+
+onMounted(() => {
+  statuses.push(...getStatuses(posts));
+});
 
 function getPath(post: Post) {
   return post._path.replace('_', '');
 }
 
-const statuses = computed(() => {
+function getStatuses(posts: Post[]) {
   const statusArray = [];
 
   for (let index = 0; index < posts.length; index++) {
@@ -79,5 +84,5 @@ const statuses = computed(() => {
     statusArray[currentIndex] = 'current';
 
   return statusArray;
-});
+}
 </script>

@@ -45,7 +45,7 @@ const statuses = computed(() => {
   const statusArray: Status[] = [];
 
   for (let index = 0; index < steps.length; index++) {
-    const status = localStorage.getItem(`status:${steps[index].path}`) as Status | null;
+    const status = localStorage.getItem(`status:${steps[index].path}`);
 
     if (currentPath === steps[index].path)
       statusArray.push('current');

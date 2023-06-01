@@ -42,9 +42,7 @@ function animatePostIn(element: Element, done: any) {
       <main ref="rootElement" v-show="!hidden">
         <ContentDoc />
         <div v-if="seriesPosts">
-          <ClientOnly>
-              <SeriesPosts :posts="seriesPosts" />
-          </ClientOnly>
+          <SeriesPosts :posts="seriesPosts" />
         </div>
       </main>
     </Transition>
