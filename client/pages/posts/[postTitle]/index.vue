@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import { gsap } from 'gsap';
-import ChildPost from '~/types/ChildPost';
 import Post from '~/types/Post';
 
 const route = useRoute();
 
-const { data: partialPosts } = await useAsyncData(async () => await queryContent<Post>(route.path)
+const { data: seriesPosts } = await useAsyncData(async () => await queryContent<Post>(route.path)
   .where({ _partial: true })
   .sort({ datetime: 1 })
   .find());
@@ -42,10 +41,10 @@ function animatePostIn(element: Element, done: any) {
     <Transition appear @enter="animatePostIn">
       <main ref="rootElement" v-show="!hidden">
         <ContentDoc />
-        <div v-if="partialPosts">
-          <ChildPosts :posts="partialPosts.map((post, index) => ({
-            ...post, status: index === 0 ? 'current' : 'upcoming'
-          }))" />
+        <div v-if="seriesPosts">
+          <ClientOnly>
+              <SeriesPosts :posts="seriesPosts" />
+          </ClientOnly>
         </div>
       </main>
     </Transition>

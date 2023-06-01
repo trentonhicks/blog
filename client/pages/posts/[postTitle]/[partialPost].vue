@@ -12,17 +12,14 @@ const { data: partialPosts } = await useAsyncData(async () => await queryContent
   .find());
 
 const routeParts = route.path.split('/');
-
 routeParts[routeParts.length - 1] = '_' + routeParts[routeParts.length -1];
-
 const partialPostContentUrl = routeParts.join('/');
-
 const hidden = ref(true);
-
 const rootElement = ref<Element | null>(null);
 
 onMounted(() => {
   hidden.value = false;
+  localStorage.setItem(`status:${route.path}`, 'completed');
 });
 
 onBeforeRouteLeave((to, from, next) => {
@@ -50,14 +47,15 @@ function animatePostIn(element: Element, done: any) {
       <main ref="rootElement" v-show="!hidden">
         <ContentDoc :path="partialPostContentUrl" />
         <div v-if="partialPosts !== null">
-          <SeriesNavigation :steps="partialPosts.map((post, index) => ({
-              name: post.title,
-              path: post._path.replace('_', ''),
-              status: post._path.replace('_', '') === route.path
-                ? 'current'
-                : 'upcoming'
-            }))"
-          />
+          <ClientOnly>
+            <SeriesNavigation
+              :current-path="route.path"
+              :steps="partialPosts.map((post, index) => ({
+                name: post.title,
+                path: post._path.replace('_', '')
+              }))"
+            />
+          </ClientOnly>
         </div>
       </main>
     </Transition>
