@@ -4,8 +4,8 @@ import Post from '~/types/Post';
 
 const { data: posts } = await useAsyncData(async () =>
     await queryContent<Post>('/posts')
-            .where({ _partial: false, })
-            .sort({ datetime: -1 }).find());
+        .where({ $not: { type: 'child' }})
+        .sort({ datetime: -1 }).find());
 
 const postsHidden = ref(true);
 const rootElement = ref<Element | null>(null);

@@ -3,17 +3,16 @@ import { gsap } from 'gsap';
 import Post from '~/types/Post';
 
 const route = useRoute();
-let parentRoute = route.path.split('/');
-parentRoute.pop();
 
-const { data: partialPosts } = await useAsyncData(async () => await queryContent<Post>(parentRoute.join('/'))
-  .where({ _partial: true })
+let parentRouteSegments = route.path.split('/');
+parentRouteSegments.pop();
+const parentRoute = parentRouteSegments.join('/');
+
+const { data: childPosts } = await useAsyncData(async () => await queryContent<Post>(parentRoute)
+  .where({ $not: { _path: parentRoute }, type: 'child' })
   .sort({ datetime: 1 })
   .find());
 
-const routeParts = route.path.split('/');
-routeParts[routeParts.length - 1] = '_' + routeParts[routeParts.length -1];
-const partialPostContentUrl = routeParts.join('/');
 const hidden = ref(true);
 const rootElement = ref<Element | null>(null);
 
@@ -45,12 +44,12 @@ function animatePostIn(element: Element, done: any) {
 <template>
     <Transition appear @enter="animatePostIn">
       <main ref="rootElement" v-show="!hidden">
-        <ContentDoc :path="partialPostContentUrl" />
-        <div v-if="partialPosts">
+        <ContentDoc />
+        <div v-if="childPosts">
             <ClientOnly>
               <SeriesNavigation
                 :current-path="route.path"
-                :steps="partialPosts.map((post, index) => ({
+                :steps="childPosts.map((post, index) => ({
                   name: post.title,
                   path: post._path.replace('_', '')
                 }))"

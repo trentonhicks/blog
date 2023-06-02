@@ -61,7 +61,7 @@ onMounted(() => {
 });
 
 function getPath(post: Post) {
-  return post._path.replace('_', '');
+  return post._path;
 }
 
 function getStatuses(posts: Post[]) {

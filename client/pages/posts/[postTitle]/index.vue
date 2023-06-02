@@ -5,12 +5,11 @@ import Post from '~/types/Post';
 const route = useRoute();
 
 const { data: seriesPosts } = await useAsyncData(async () => await queryContent<Post>(route.path)
-  .where({ _partial: true })
+  .where({ type: 'child' })
   .sort({ datetime: 1 })
   .find());
 
 const hidden = ref(true);
-
 const rootElement = ref<Element | null>(null);
 
 onMounted(() => {
