@@ -16,6 +16,7 @@ author:
 overline: What Is Your Purpose?
 :title: title
 featuredImage: 'https://ik.imagekit.io/trentonhicks/what-is-your-purpose.jpg'
+audioUrl: '/audio/what-is-your-purpose/its-time-for-you-to-die.m4a'
 ---
 ::
 

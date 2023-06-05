@@ -1,5 +1,30 @@
 <script setup lang="ts">
-defineProps<{ title: string, overline?: string, description?: string, featuredImage: string }>();
+import { PlayIcon, PauseIcon } from '@heroicons/vue/20/solid';
+
+const props = defineProps<{ title: string, overline?: string, description?: string, featuredImage: string, audioUrl?: string }>();
+
+const audio = ref<HTMLAudioElement>();
+const playingAudio = ref(false);
+
+onMounted(() => {
+    if (props.audioUrl) {
+        audio.value = new Audio(props.audioUrl);
+        audio.value.onended = () => {
+            playingAudio.value = false;
+        };
+    }
+});
+
+function togglePlay() {
+    if (playingAudio.value) {
+        audio.value?.pause();
+    }
+    else {
+        audio.value?.play();
+    }
+
+    playingAudio.value = !playingAudio.value;
+}
 </script>
 
 <template>
@@ -16,6 +41,17 @@ defineProps<{ title: string, overline?: string, description?: string, featuredIm
                 <p class="text-base font-semibold leading-7 text-indigo-400 mb-0" v-if="overline">{{ overline }}</p>
                 <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">{{ title }}</h1>
                 <p class="mt-6 text-lg leading-8 text-gray-300" v-if="description">{{ description }}</p>
+                <div v-if="audioUrl" class="mt-7">
+                    <button
+                        type="button"
+                        @click="togglePlay"
+                        class="inline-flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    >
+                        <PlayIcon class="-mr-0.5 h-5 w-5" aria-hidden="true" v-if="!playingAudio" />
+                        <PauseIcon class="-mr-0.5 h-5 w-5" aria-hidden="true" v-else />
+                        <div>Listen to this post</div>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
