@@ -5,7 +5,7 @@ defineProps<{ questions: string[] }>();
 </script>
 
 <template>
-    <div class="px-7 py-10 border border-indigo-600 rounded-lg">
+    <div class="mt-9 px-7 py-10 border border-indigo-600 rounded-lg">
         <h2 class="mt-0">Questions</h2>
         <ul role="list" class="max-w-xl space-y-5 text-gray-600 mb-0">
           <li class="flex gap-x-3" v-for="question in questions">

@@ -45,16 +45,11 @@ function animatePostIn(element: Element, done: any) {
     <Transition appear @enter="animatePostIn">
       <main ref="rootElement" v-show="!hidden">
         <ContentDoc />
-        <div v-if="childPosts">
-            <ClientOnly>
-              <SeriesNavigation
-                :current-path="route.path"
-                :steps="childPosts.map((post, index) => ({
-                  name: post.title,
-                  path: post._path.replace('_', '')
-                }))"
-              />
-            </ClientOnly>
+        <div class="mt-10">
+          <SeriesPosts
+            :posts="childPosts"
+            v-if="childPosts"
+          />
         </div>
       </main>
     </Transition>

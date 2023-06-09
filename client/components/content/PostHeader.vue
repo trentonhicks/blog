@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PlayIcon, PauseIcon } from '@heroicons/vue/20/solid';
+import { PlayIcon, PauseIcon, ArrowUturnLeftIcon } from '@heroicons/vue/20/solid';
 
 const props = defineProps<{ title: string, overline?: string, description?: string, featuredImage: string, audioUrl?: string }>();
 
@@ -41,11 +41,19 @@ function togglePlay() {
                 <p class="text-base font-semibold leading-7 text-indigo-400 mb-0" v-if="overline">{{ overline }}</p>
                 <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">{{ title }}</h1>
                 <p class="mt-6 text-lg leading-8 text-gray-300" v-if="description">{{ description }}</p>
-                <div v-if="audioUrl" class="mt-7">
+                <div class="mt-7 flex items-start gap-x-2">
+                    <button
+                        type="button"
+                        class="inline-flex gap-x-2 rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20"
+                    >
+                        <ArrowUturnLeftIcon class="-mr-0.5 h-5 w-5" aria-hidden="true" />
+                        <div>Back</div>
+                    </button>
                     <button
                         type="button"
                         @click="togglePlay"
                         class="inline-flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                        v-if="audioUrl"
                     >
                         <PlayIcon class="-mr-0.5 h-5 w-5" aria-hidden="true" v-if="!playingAudio" />
                         <PauseIcon class="-mr-0.5 h-5 w-5" aria-hidden="true" v-else />
