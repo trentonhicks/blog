@@ -1,7 +1,7 @@
 ---
 title: Become Like a Child
 type: child
-description: For whoever wishes to save his life will lose it, but whoever loses his life for My sake and the gospel’s will save it. For what does it profit a man to gain the whole world, and forfeit his soul?
+description: Beep, beep, beep!" The alarm sounded at 4:00 AM. Exhausted and miserable, I lacked the motivation to rise, but I adhered to a strict routine. My very existence depended on it.
 date: June 8, 2023
 datetime: 2023-06-08
 imageUrl: https://ik.imagekit.io/trentonhicks/what-is-your-purpose.jpg
