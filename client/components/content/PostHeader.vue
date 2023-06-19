@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PlayIcon, PauseIcon, ArrowUturnLeftIcon } from '@heroicons/vue/20/solid';
+import { PlayIcon, PauseIcon } from '@heroicons/vue/20/solid';
 
 const props = defineProps<{ title: string, overline?: string, description?: string, featuredImage: string, audioUrl?: string }>();
 
@@ -42,13 +42,6 @@ function togglePlay() {
                 <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">{{ title }}</h1>
                 <p class="mt-6 text-lg leading-8 text-gray-300" v-if="description">{{ description }}</p>
                 <div class="mt-7 flex items-start gap-x-2">
-                    <nuxt-link
-                        to="/"
-                        class="inline-flex gap-x-2 rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20"
-                    >
-                        <ArrowUturnLeftIcon class="-mr-0.5 h-5 w-5" aria-hidden="true" />
-                        <div>Back</div>
-                    </nuxt-link>
                     <button
                         type="button"
                         @click="togglePlay"

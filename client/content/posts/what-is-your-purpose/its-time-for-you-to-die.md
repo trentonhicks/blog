@@ -75,3 +75,11 @@ Looking at him, Jesus felt a love for him and said to him, “One thing you lack
 This young man in the previous passage was so enmeshed in the pursuit of personal gain that he found giving up his possesions too much to bear. This is a warning to us that we do not value the temporal above the eternal. We must choose to love God rather than ourselves.
 
 In the next post we will further explore what our new life in Christ looks like.
+
+::Questions
+---
+questions:
+    - Are you trying to save yourself or are you abiding in Christ?
+    - Do you think you are a good person? How do you define good? What does God's Word say?
+---
+::
