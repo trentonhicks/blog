@@ -40,7 +40,7 @@ function togglePlay() {
             <div class="mx-auto max-w-2xl lg:mx-0">
                 <p class="text-base font-semibold leading-7 text-indigo-400 mb-0" v-if="overline">{{ overline }}</p>
                 <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">{{ title }}</h1>
-                <p class="mt-6 text-lg leading-8 text-gray-300" v-if="description">{{ description }}</p>
+                <p class="mt-2 mb-0 text-lg leading-8 text-gray-300" v-if="description">{{ description }}</p>
                 <div class="mt-7 flex items-start gap-x-2">
                     <button
                         type="button"
