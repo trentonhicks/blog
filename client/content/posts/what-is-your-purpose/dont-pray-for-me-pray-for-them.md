@@ -36,7 +36,7 @@ When our group made it back to the park, I found Brandon and struck up a convers
 
 Let me ask you, Brandon, do you think you are a good person?" With darting eyes and a sly grin, Brandon drew closer and looked me straight in the eyes, "Oh, I know that I'm not a good person. I've murdered people." Staring calmly back at him, I inquired further. "Does that concern you? Have you changed your ways and put your trust in Christ?" Brandon proceeded to lift up his shirt, revealing deep scars across his back. "You see these scars?" he asked. "I've been chained to a floor and tortured for hours. I've been sexually abused. I've been to Hell already. Nothing could be worse than what I've already been through."
 
-I responded, "I'm sorry to hear what you have been through. However, just because you've suffered in this life does not mean your sins are any less serious. You are still responsible for the things you have done. The wages of sin is death. There is only hope for you in Christ who died in your stead. Would you like me to pray about anything with you?" Gesturing towards the crowds of people at the park, Brandon said, "Don't pray for me. Pray for them. I've already paid my price. I have faith in people to do good. That's what I believe in." I countered, "Brandon, you can't save yourself. I hope you repent and put your faith in Christ. I love you. Thanks for talking with me." Tears in his eyes, Brandon said, "You've given me a lot to think about." And he walked away.
+I responded, "I'm sorry to hear what you have been through. However, just because you've suffered in this life does not mean your sins are any less serious. You are still responsible for the things you have done. The wages of sin is death. There is only hope for you in Christ. Would you like me to pray about anything with you?" Gesturing towards the crowds of people at the park, Brandon said, "Don't pray for me. Pray for them. I've already paid my price. I have faith in people to do good. That's what I believe in." I countered, "Brandon, you can't save yourself. I hope you repent and put your faith in Christ. I love you. Thanks for talking with me." Tears in his eyes, Brandon said, "You've given me a lot to think about." He then proceeded to quickly make an exit.
 
 ::Scripture
 ---
@@ -45,5 +45,7 @@ reference: John 3:20
 For everyone who does evil hates the Light, and does not come to the Light for fear that his deeds will be exposed.
 ::
 
-Brandon was unwilling to recognize the seriousness of his sin. He believed himself to be the victim. He thought that he had suffered adequately to cover his sins. The truth is that Christ was the real victim. He was innocent, yet died because of our sins. Each and every one of us is responsible for the sufferings of Christ. To continue in sin after you know the truth is to despise the sacrifice made for your redemption. Christ died so that we would be changed. Not so that we would remain as we are.
+Brandon was unwilling to recognize the seriousness of his sin. He constantly sought to redirect focus on others and neglect his own responsibilities. He believed himself to be the victim. He thought that he had suffered adequately to cover his own sins. The truth is that Christ was the real victim. Jesus was innocent, yet died because of our sins. Each and every one of us is responsible for the cross. To continue in sin after you know the truth is to despise the sacrifice made for your redemption. Christ died so that we would be transformed. Not so that we would remain as we are.
+
+Repent and Believe in Jesus Christ.
 
