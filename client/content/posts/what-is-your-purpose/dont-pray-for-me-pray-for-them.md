@@ -1,7 +1,7 @@
 ---
 title: Don't Pray for Me
 type: child
-description: 'For the flesh sets its desire against the Spirit, and the Spirit against the flesh; for these are in opposition to one another, so that you may not do the things that you please.'
+description: 'It was busy at the park on Tuesday afternoon. People from all over the city had gathered for the annual basketball competition hosted by my church youth group.'
 date: June 23, 2023
 datetime: 2023-07-01
 imageUrl: https://ik.imagekit.io/trentonhicks/what-is-your-purpose.jpg
