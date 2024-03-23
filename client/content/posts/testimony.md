@@ -12,23 +12,11 @@ author:
 
 # Testimony
 
-## Doubts and Fears
-
-::Paragraph{spacing=tight}
 From a very young age I doubted that I was saved.
-::
-    
-When I was 11 years old, there was a moment when I feared leaving the house because I did not want to risk dying and going to Hell.
-
-I knew I wasn't perfect. I knew that I had sinned.
-
-Because of my flawed nature I feared that God would not forgive me.
 
 I did not believe that I could receive God's mercy because I knew that I didn't deserve it.
 
-I hearkened to voices of doubt and fear which resulted in deception and an inability to see the truth.
-
-I believed that I was a failure unworthy of love from God or other people.
+I hearkened to voices of doubt and fear which resulted in an inability to see the truth.
 
 ## Consequences of False Beliefs
 
