@@ -8,5 +8,5 @@ const { data: posts } = await useAsyncData(async () =>
 </script>
 
 <template>
-    <PostList :posts="posts" />
+    <Posts :posts="posts" />
 </template>
