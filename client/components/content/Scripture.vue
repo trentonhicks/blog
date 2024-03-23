@@ -10,9 +10,6 @@ import { BookOpenIcon } from '@heroicons/vue/20/solid';
         </p>
     </blockquote>
     <figcaption class="mt-6 flex gap-x-4">
-        <div class="h-6 w-6 flex items-center justify-center text-indigo-500">
-            <BookOpenIcon class="h-5 w-5" />
-        </div>
         <div class="text-sm leading-6">
           <ContentSlot :use="$slots.reference" unwrap="p" />
         </div>
