@@ -1,6 +1,5 @@
 ---
 title: 'The Pursuit of Success'
-type: child
 description: Growing up I struggled with a poor self-image. I believed I had to achieve perfection to be loved by God and people. My perspective was that I didn't have value to others, and I had to focus on fixing my own problems.
 date: May 27, 2023
 datetime: 2023-05-27

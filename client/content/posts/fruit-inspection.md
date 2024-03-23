@@ -1,6 +1,5 @@
 ---
 title: Fruit Inspection
-type: child
 description: 'For the flesh sets its desire against the Spirit, and the Spirit against the flesh; for these are in opposition to one another, so that you may not do the things that you please.'
 date: June 23, 2023
 datetime: 2023-06-23

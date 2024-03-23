@@ -1,6 +1,5 @@
 ---
 title: It's Time for You to Die
-type: child
 description: For whoever wishes to save his life will lose it, but whoever loses his life for My sake and the gospel’s will save it. For what does it profit a man to gain the whole world, and forfeit his soul?
 date: June 1, 2023
 datetime: 2023-06-01

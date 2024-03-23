@@ -1,6 +1,5 @@
 ---
 title: Become Like a Child
-type: child
 description: Beep, beep, beep!" The alarm sounded at 4:00 AM. Exhausted and miserable, I lacked the motivation to rise, but I adhered to a strict routine. My very existence depended on it.
 date: June 20, 2023
 datetime: 2023-06-20
