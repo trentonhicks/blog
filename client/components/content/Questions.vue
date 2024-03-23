@@ -5,12 +5,13 @@ defineProps<{ questions: string[] }>();
 </script>
 
 <template>
-    <div class="mt-9 px-7 py-10 border border-indigo-600 rounded-lg">
-        <h2 class="mt-0">Questions</h2>
-        <ul role="list" class="max-w-xl space-y-5 text-gray-600 mb-0">
-          <li class="flex gap-x-3" v-for="question in questions">
-            <QuestionMarkCircleIcon class="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-            <span>{{ question }}</span>
+    <div class="mt-14">
+        <div class="text-2xl text-indigo-600 font-semibold mb-8">Questions</div>
+        <ul role="list" class="space-y-3 text-gray-600 mb-0">
+          <li class="flex flex-col gap-y-1 bg-white rounded border border-indigo-600 py-3 px-6" v-for="question in questions">
+            <div>
+              <span class="text-gray-600 font-semibold text-sm sm:text-base">{{ question }}</span>
+            </div>
           </li>
         </ul>
     </div>

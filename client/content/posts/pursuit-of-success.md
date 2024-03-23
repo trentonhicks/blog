@@ -10,29 +10,25 @@ author:
     imageUrl: https://ik.imagekit.io/trentonhicks/trenton.jpeg
 ---
 
-::PostHeader
----
-overline: What Is Your Purpose?
-:title: title
-featuredImage: 'https://ik.imagekit.io/trentonhicks/what-is-your-purpose.jpg'
-audioUrl: '/audio/what-is-your-purpose/the-pursuit-of-success.m4a'
----
-::
+# The Pursuit of Success
 
 ::Scripture
----
-reference: Ecclesiastes 2:11
----
 Thus I considered all my activities which my hands had done and the labor which I had exerted, and behold all was vanity and striving after wind and there was no profit under the sun.
+
+#reference
+Ecclesiastes 2:11
 ::
 
 Growing up, I struggled with a poor self-image.
 
 I used to believe that I had no value to others, and I had to focus on fixing my own problems.
 
-Since I considered myself to be unlovable in my imperfect state, I began to seek approval from God and the people in my life by working hard to achieve "success."
+Since I considered myself to be unlovable in my imperfect state, I began to seek approval from God and the people in my life by working hard to achieve success.
 
-Here are some things I worked on to achieve "success":
+::LeadText
+Here are some things I worked on to achieve "success."
+::
+
 - Getting up early to read the Bible.
 - Volunteering in church.
 - Exercise
@@ -59,8 +55,6 @@ Abide in Me, and I in you. As the branch cannot bear fruit of itself unless it a
 ::
 
 I began to recognize that all of my efforts were vain apart from God. It is true that I wasn't good enough. I needed forgiveness and grace to experience the life that God wanted me to have and to fulfill the purpose He had for my life.
-
-In part 2 of this series we will continue to explore what the Scriptures say regarding our purpose for this life and throughout eternity.
 
 ::Questions
 ---
