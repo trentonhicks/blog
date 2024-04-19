@@ -1,22 +1,9 @@
 ---
 title: Fruit Inspection
 description: 'For the flesh sets its desire against the Spirit, and the Spirit against the flesh; for these are in opposition to one another, so that you may not do the things that you please.'
-date: June 23, 2023
-datetime: 2023-06-23
-imageUrl: https://ik.imagekit.io/trentonhicks/what-is-your-purpose.jpg
-author:
-    name: Trenton Hicks
-    role: Author
-    imageUrl: https://ik.imagekit.io/trentonhicks/trenton.jpeg
 ---
 
-::PostHeader
----
-overline: What Is Your Purpose?
-:title: title
-featuredImage: 'https://ik.imagekit.io/trentonhicks/what-is-your-purpose.jpg'
----
-::
+# Fruit Inspection
 
 ::Scripture
 ---

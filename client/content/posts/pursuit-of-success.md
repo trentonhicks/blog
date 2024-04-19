@@ -12,6 +12,8 @@ author:
 
 # The Pursuit of Success
 
+:PostAudio{ audioUrl = '/audio/what-is-your-purpose/the-pursuit-of-success.m4a' }
+
 ::Scripture
 Thus I considered all my activities which my hands had done and the labor which I had exerted, and behold all was vanity and striving after wind and there was no profit under the sun.
 
@@ -63,3 +65,5 @@ questions:
     - Do you think you are a good person? How do you define good? What does God's Word say?
 ---
 ::
+
+:CallToAction
